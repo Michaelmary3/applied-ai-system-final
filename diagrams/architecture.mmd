@@ -1,0 +1,10 @@
+graph TD
+    User[User Input / Preference Prompt] --> Parser[Preference Parser / Agent]
+    Parser --> Engine[Scoring & Ranking Engine]
+    Catalog[(Song Catalog / CSV Data)] --> Engine
+    Engine --> Generator[AI Explanation & Reason Generator]
+    Generator --> Output[Ranked Recommendations Output]
+    Engine --> Evaluator[Reliability Test Harness]
+    Evaluator --> Guardrails{Guardrails & Metrics}
+    Guardrails -->|Pass| Terminal[Terminal Output Log]
+    Guardrails -->|Fail| Logging[Error Log / Fallback]
