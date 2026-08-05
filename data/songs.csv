@@ -1,0 +1,11 @@
+id,title,artist,genre,mood,energy,tempo_bpm
+1,Blinding Lights,The Weeknd,pop,happy,0.8,171
+2,Dynamite,BTS,pop,happy,0.75,114
+3,Levitating,Dua Lipa,pop,happy,0.7,103
+4,Coffee Shop Vibes,Lofi Chill,lofi,chill,0.2,80
+5,Rainy Day Beats,Lofi Chill,lofi,chill,0.15,75
+6,Midnight Study,Lofi Chill,lofi,chill,0.25,85
+7,Back In Black,AC/DC,rock,sad,0.8,110
+8,Enter Sandman,Metallica,rock,sad,0.75,123
+9,Smells Like Teen Spirit,Nirvana,rock,sad,0.7,117
+10,Someone Like You,Adele,pop,sad,0.3,67
